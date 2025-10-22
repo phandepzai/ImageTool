@@ -1,4 +1,4 @@
-﻿
+
 using System;
 using System.Drawing;
 using System.Drawing.Imaging;
@@ -654,17 +654,47 @@ namespace CircularImageGenerator
         }
         private void AdjustTabSizes()
         {
-            foreach (TabPage tab in tabControlMain.TabPages)
+            try
             {
+                int maxWidth = 0;
                 using (Graphics g = tabControlMain.CreateGraphics())
                 {
-                    SizeF textSize = g.MeasureString(tab.Text, tabControlMain.Font);
-                    int requiredWidth = (int)textSize.Width + 50; // Thêm padding
-                    if (requiredWidth > tabControlMain.ItemSize.Width)
+                    // Tính chiều rộng lớn nhất cần thiết
+                    foreach (TabPage tab in tabControlMain.TabPages)
                     {
-                        tabControlMain.ItemSize = new Size(requiredWidth, tabControlMain.ItemSize.Height);
+                        SizeF textSize = g.MeasureString(tab.Text, tabControlMain.Font);
+                        int requiredWidth = (int)textSize.Width + 20; // Padding 20 pixels
+                        if (requiredWidth > maxWidth)
+                        {
+                            maxWidth = requiredWidth;
+                        }
+                    }
+
+                    // Giới hạn chiều rộng tối đa (tuỳ chọn)
+                    int maxAllowedWidth = 150;
+                    if (maxWidth > maxAllowedWidth)
+                    {
+                        maxWidth = maxAllowedWidth;
+                    }
+
+                    // Đảm bảo chiều rộng tối thiểu
+                    int minWidth = 80;
+                    if (maxWidth < minWidth)
+                    {
+                        maxWidth = minWidth;
+                    }
+
+                    // Áp dụng kích thước mới
+                    if (maxWidth > 0)
+                    {
+                        tabControlMain.ItemSize = new Size(maxWidth, tabControlMain.ItemSize.Height);
                     }
                 }
+            }
+            catch (Exception ex)
+            {
+                // Xử lý lỗi nếu có
+                Console.WriteLine("Lỗi khi điều chỉnh kích thước tab: " + ex.Message);
             }
         }
     }
