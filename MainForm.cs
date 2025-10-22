@@ -607,7 +607,7 @@ namespace CircularImageGenerator
             if (e.State == DrawItemState.Selected)
             {
                 // Màu nền và chữ nổi bật cho tab được chọn
-                backColor = System.Drawing.ColorTranslator.FromHtml("#54FF9F"); // Màu xanh nhạt nổi bật
+                backColor = System.Drawing.ColorTranslator.FromHtml("#F4A460"); // Màu xanh nhạt nổi bật
                 foreColor = Color.DarkBlue; // Màu xanh đậm cho chữ
 
                 // Chỉ in đậm, không tăng kích thước font
@@ -699,3 +699,4 @@ namespace CircularImageGenerator
         }
     }
 }
+
