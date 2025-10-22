@@ -1,0 +1,1008 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BtnSelectImage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9.75pt, style=Bold</value>
+  </data>
+  <data name="BtnSelectImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="BtnSelectImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 40</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BtnSelectImage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BtnSelectImage.Text" xml:space="preserve">
+    <value>CHỌN FILE</value>
+  </data>
+  <data name="&gt;&gt;BtnSelectImage.Name" xml:space="preserve">
+    <value>BtnSelectImage</value>
+  </data>
+  <data name="&gt;&gt;BtnSelectImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSelectImage.Parent" xml:space="preserve">
+    <value>tabRotator</value>
+  </data>
+  <data name="&gt;&gt;BtnSelectImage.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtImagePath.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9.75pt, style=Bold</value>
+  </data>
+  <data name="txtImagePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 17</value>
+  </data>
+  <data name="txtImagePath.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtImagePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>377, 37</value>
+  </data>
+  <data name="txtImagePath.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtImagePath.Name" xml:space="preserve">
+    <value>txtImagePath</value>
+  </data>
+  <data name="&gt;&gt;txtImagePath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtImagePath.Parent" xml:space="preserve">
+    <value>tabRotator</value>
+  </data>
+  <data name="&gt;&gt;txtImagePath.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="BtnSelectOutput.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9.75pt, style=Bold</value>
+  </data>
+  <data name="BtnSelectOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 78</value>
+  </data>
+  <data name="BtnSelectOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 40</value>
+  </data>
+  <data name="BtnSelectOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BtnSelectOutput.Text" xml:space="preserve">
+    <value>VỊ TRÍ LƯU</value>
+  </data>
+  <data name="&gt;&gt;BtnSelectOutput.Name" xml:space="preserve">
+    <value>BtnSelectOutput</value>
+  </data>
+  <data name="&gt;&gt;BtnSelectOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSelectOutput.Parent" xml:space="preserve">
+    <value>tabRotator</value>
+  </data>
+  <data name="&gt;&gt;BtnSelectOutput.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtOutputPath.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9.75pt, style=Bold</value>
+  </data>
+  <data name="txtOutputPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 79</value>
+  </data>
+  <data name="txtOutputPath.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtOutputPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>377, 37</value>
+  </data>
+  <data name="txtOutputPath.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtOutputPath.Name" xml:space="preserve">
+    <value>txtOutputPath</value>
+  </data>
+  <data name="&gt;&gt;txtOutputPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtOutputPath.Parent" xml:space="preserve">
+    <value>tabRotator</value>
+  </data>
+  <data name="&gt;&gt;txtOutputPath.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 146</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Góc Bắt Đầu</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tabRotator</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="numStartAngle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 14.25pt, style=Bold</value>
+  </data>
+  <data name="numStartAngle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 182</value>
+  </data>
+  <data name="numStartAngle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 30</value>
+  </data>
+  <data name="numStartAngle.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="numStartAngle.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;numStartAngle.Name" xml:space="preserve">
+    <value>numStartAngle</value>
+  </data>
+  <data name="&gt;&gt;numStartAngle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numStartAngle.Parent" xml:space="preserve">
+    <value>tabRotator</value>
+  </data>
+  <data name="&gt;&gt;numStartAngle.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 146</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 20</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Góc Kết Thúc</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>tabRotator</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="numEndAngle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 14.25pt, style=Bold</value>
+  </data>
+  <data name="numEndAngle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 182</value>
+  </data>
+  <data name="numEndAngle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 30</value>
+  </data>
+  <data name="numEndAngle.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="numEndAngle.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;numEndAngle.Name" xml:space="preserve">
+    <value>numEndAngle</value>
+  </data>
+  <data name="&gt;&gt;numEndAngle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numEndAngle.Parent" xml:space="preserve">
+    <value>tabRotator</value>
+  </data>
+  <data name="&gt;&gt;numEndAngle.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="BtnGenerate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="BtnGenerate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 232</value>
+  </data>
+  <data name="BtnGenerate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 38</value>
+  </data>
+  <data name="BtnGenerate.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="BtnGenerate.Text" xml:space="preserve">
+    <value>BẮT ĐẦU TẠO ẢNH</value>
+  </data>
+  <data name="&gt;&gt;BtnGenerate.Name" xml:space="preserve">
+    <value>BtnGenerate</value>
+  </data>
+  <data name="&gt;&gt;BtnGenerate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnGenerate.Parent" xml:space="preserve">
+    <value>tabRotator</value>
+  </data>
+  <data name="&gt;&gt;BtnGenerate.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelStatus.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelStatus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 288</value>
+  </data>
+  <data name="labelStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 17</value>
+  </data>
+  <data name="labelStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="labelStatus.Text" xml:space="preserve">
+    <value>Trạng thái: Sẵn sàng</value>
+  </data>
+  <data name="&gt;&gt;labelStatus.Name" xml:space="preserve">
+    <value>labelStatus</value>
+  </data>
+  <data name="&gt;&gt;labelStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelStatus.Parent" xml:space="preserve">
+    <value>tabRotator</value>
+  </data>
+  <data name="&gt;&gt;labelStatus.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 146</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 20</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Bước Nhảy Góc</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>tabRotator</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="numStepAngle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 14.25pt, style=Bold</value>
+  </data>
+  <data name="numStepAngle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 182</value>
+  </data>
+  <data name="numStepAngle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 30</value>
+  </data>
+  <data name="numStepAngle.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="numStepAngle.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;numStepAngle.Name" xml:space="preserve">
+    <value>numStepAngle</value>
+  </data>
+  <data name="&gt;&gt;numStepAngle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numStepAngle.Parent" xml:space="preserve">
+    <value>tabRotator</value>
+  </data>
+  <data name="&gt;&gt;numStepAngle.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="picPreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 157</value>
+  </data>
+  <data name="picPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="picPreview.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;picPreview.Name" xml:space="preserve">
+    <value>picPreview</value>
+  </data>
+  <data name="&gt;&gt;picPreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picPreview.Parent" xml:space="preserve">
+    <value>tabRotator</value>
+  </data>
+  <data name="&gt;&gt;picPreview.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelPreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>444, 406</value>
+  </data>
+  <data name="labelPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="labelPreview.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;labelPreview.Name" xml:space="preserve">
+    <value>labelPreview</value>
+  </data>
+  <data name="&gt;&gt;labelPreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPreview.Parent" xml:space="preserve">
+    <value>tabRotator</value>
+  </data>
+  <data name="&gt;&gt;labelPreview.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="timerButtonEffect.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="labelPreviewImg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPreviewImg.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelPreviewImg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPreviewImg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 136</value>
+  </data>
+  <data name="labelPreviewImg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 17</value>
+  </data>
+  <data name="labelPreviewImg.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="labelPreviewImg.Text" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="&gt;&gt;labelPreviewImg.Name" xml:space="preserve">
+    <value>labelPreviewImg</value>
+  </data>
+  <data name="&gt;&gt;labelPreviewImg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPreviewImg.Parent" xml:space="preserve">
+    <value>tabRotator</value>
+  </data>
+  <data name="&gt;&gt;labelPreviewImg.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabRotator.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="tabRotator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 34</value>
+  </data>
+  <data name="tabRotator.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabRotator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>568, 311</value>
+  </data>
+  <data name="tabRotator.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabRotator.Text" xml:space="preserve">
+    <value>TẠO ẢNH XOAY TRÒN</value>
+  </data>
+  <data name="&gt;&gt;tabRotator.Name" xml:space="preserve">
+    <value>tabRotator</value>
+  </data>
+  <data name="&gt;&gt;tabRotator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabRotator.Parent" xml:space="preserve">
+    <value>tabControlMain</value>
+  </data>
+  <data name="&gt;&gt;tabRotator.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelPixel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPixel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelPixel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPixel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 155</value>
+  </data>
+  <data name="labelPixel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 17</value>
+  </data>
+  <data name="labelPixel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="labelPixel.Text" xml:space="preserve">
+    <value>Pixel</value>
+  </data>
+  <data name="&gt;&gt;labelPixel.Name" xml:space="preserve">
+    <value>labelPixel</value>
+  </data>
+  <data name="&gt;&gt;labelPixel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPixel.Parent" xml:space="preserve">
+    <value>tabConverter</value>
+  </data>
+  <data name="&gt;&gt;labelPixel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelPreviewICO.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPreviewICO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelPreviewICO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>464, 137</value>
+  </data>
+  <data name="labelPreviewICO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 17</value>
+  </data>
+  <data name="labelPreviewICO.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="labelPreviewICO.Text" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="&gt;&gt;labelPreviewICO.Name" xml:space="preserve">
+    <value>labelPreviewICO</value>
+  </data>
+  <data name="&gt;&gt;labelPreviewICO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPreviewICO.Parent" xml:space="preserve">
+    <value>tabConverter</value>
+  </data>
+  <data name="&gt;&gt;labelPreviewICO.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="picPreviewICO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>414, 158</value>
+  </data>
+  <data name="picPreviewICO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="picPreviewICO.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="picPreviewICO.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;picPreviewICO.Name" xml:space="preserve">
+    <value>picPreviewICO</value>
+  </data>
+  <data name="&gt;&gt;picPreviewICO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picPreviewICO.Parent" xml:space="preserve">
+    <value>tabConverter</value>
+  </data>
+  <data name="&gt;&gt;picPreviewICO.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblStatusICO.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStatusICO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
+  </data>
+  <data name="lblStatusICO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 284</value>
+  </data>
+  <data name="lblStatusICO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="lblStatusICO.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblStatusICO.Name" xml:space="preserve">
+    <value>lblStatusICO</value>
+  </data>
+  <data name="&gt;&gt;lblStatusICO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStatusICO.Parent" xml:space="preserve">
+    <value>tabConverter</value>
+  </data>
+  <data name="&gt;&gt;lblStatusICO.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnConvertICO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnConvertICO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 210</value>
+  </data>
+  <data name="btnConvertICO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 43</value>
+  </data>
+  <data name="btnConvertICO.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnConvertICO.Text" xml:space="preserve">
+    <value>PROCESSING</value>
+  </data>
+  <data name="&gt;&gt;btnConvertICO.Name" xml:space="preserve">
+    <value>btnConvertICO</value>
+  </data>
+  <data name="&gt;&gt;btnConvertICO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnConvertICO.Parent" xml:space="preserve">
+    <value>tabConverter</value>
+  </data>
+  <data name="&gt;&gt;btnConvertICO.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtOutputICO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9.75pt, style=Bold</value>
+  </data>
+  <data name="txtOutputICO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 83</value>
+  </data>
+  <data name="txtOutputICO.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtOutputICO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 39</value>
+  </data>
+  <data name="txtOutputICO.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtOutputICO.Name" xml:space="preserve">
+    <value>txtOutputICO</value>
+  </data>
+  <data name="&gt;&gt;txtOutputICO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtOutputICO.Parent" xml:space="preserve">
+    <value>tabConverter</value>
+  </data>
+  <data name="&gt;&gt;txtOutputICO.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnSelectOutputICO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9.75pt, style=Bold</value>
+  </data>
+  <data name="btnSelectOutputICO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 83</value>
+  </data>
+  <data name="btnSelectOutputICO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 39</value>
+  </data>
+  <data name="btnSelectOutputICO.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnSelectOutputICO.Text" xml:space="preserve">
+    <value>VỊ TRÍ LƯU</value>
+  </data>
+  <data name="&gt;&gt;btnSelectOutputICO.Name" xml:space="preserve">
+    <value>btnSelectOutputICO</value>
+  </data>
+  <data name="&gt;&gt;btnSelectOutputICO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSelectOutputICO.Parent" xml:space="preserve">
+    <value>tabConverter</value>
+  </data>
+  <data name="&gt;&gt;btnSelectOutputICO.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtInputImageICO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9.75pt, style=Bold</value>
+  </data>
+  <data name="txtInputImageICO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 16</value>
+  </data>
+  <data name="txtInputImageICO.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtInputImageICO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 39</value>
+  </data>
+  <data name="txtInputImageICO.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtInputImageICO.Name" xml:space="preserve">
+    <value>txtInputImageICO</value>
+  </data>
+  <data name="&gt;&gt;txtInputImageICO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtInputImageICO.Parent" xml:space="preserve">
+    <value>tabConverter</value>
+  </data>
+  <data name="&gt;&gt;txtInputImageICO.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnSelectImageICO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9.75pt, style=Bold</value>
+  </data>
+  <data name="btnSelectImageICO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="btnSelectImageICO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 39</value>
+  </data>
+  <data name="btnSelectImageICO.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnSelectImageICO.Text" xml:space="preserve">
+    <value>CHỌN ẢNH</value>
+  </data>
+  <data name="&gt;&gt;btnSelectImageICO.Name" xml:space="preserve">
+    <value>btnSelectImageICO</value>
+  </data>
+  <data name="&gt;&gt;btnSelectImageICO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSelectImageICO.Parent" xml:space="preserve">
+    <value>tabConverter</value>
+  </data>
+  <data name="&gt;&gt;btnSelectImageICO.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cmbIconSize.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 14.25pt, style=Bold</value>
+  </data>
+  <data name="cmbIconSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 148</value>
+  </data>
+  <data name="cmbIconSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 33</value>
+  </data>
+  <data name="cmbIconSize.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;cmbIconSize.Name" xml:space="preserve">
+    <value>cmbIconSize</value>
+  </data>
+  <data name="&gt;&gt;cmbIconSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbIconSize.Parent" xml:space="preserve">
+    <value>tabConverter</value>
+  </data>
+  <data name="&gt;&gt;cmbIconSize.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblIconSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblIconSize.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lblIconSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 155</value>
+  </data>
+  <data name="lblIconSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 17</value>
+  </data>
+  <data name="lblIconSize.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblIconSize.Text" xml:space="preserve">
+    <value>Icon Size:</value>
+  </data>
+  <data name="&gt;&gt;lblIconSize.Name" xml:space="preserve">
+    <value>lblIconSize</value>
+  </data>
+  <data name="&gt;&gt;lblIconSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIconSize.Parent" xml:space="preserve">
+    <value>tabConverter</value>
+  </data>
+  <data name="&gt;&gt;lblIconSize.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tabConverter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="tabConverter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 34</value>
+  </data>
+  <data name="tabConverter.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabConverter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>568, 311</value>
+  </data>
+  <data name="tabConverter.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabConverter.Text" xml:space="preserve">
+    <value>IMAGE TO ICON</value>
+  </data>
+  <data name="&gt;&gt;tabConverter.Name" xml:space="preserve">
+    <value>tabConverter</value>
+  </data>
+  <data name="&gt;&gt;tabConverter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabConverter.Parent" xml:space="preserve">
+    <value>tabControlMain</value>
+  </data>
+  <data name="&gt;&gt;tabConverter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabControlMain.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="tabControlMain.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>200, 30</value>
+  </data>
+  <data name="tabControlMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 4</value>
+  </data>
+  <data name="tabControlMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>576, 349</value>
+  </data>
+  <data name="tabControlMain.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tabControlMain.Name" xml:space="preserve">
+    <value>tabControlMain</value>
+  </data>
+  <data name="&gt;&gt;tabControlMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControlMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControlMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>576, 353</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAQEAAAAEAIACACwAAFgAAAIlQTkcNChoKAAAADUlIRFIAAABAAAAAQAgGAAAAqmlx3gAAAAFz
+        UkdCAK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAA7DAAAOwwHHb6hkAAALFUlEQVR4XtVbeXSU
+        1RUfW2TH2lpbBFRU2n/ako0Eyg5xCYFkliSE5FuGLFC1BKRaNmURTo9YPKVSD61JUKSthShkD4tCoGyZ
+        LTOhZQsZEigoIIuAJxYs79dz32TC8CaEyWyJ95zfCcx88333d+9999133/s0mhALDmU9yerUZGZVFzGT
+        tBEWxcrM0kWYZXiCmaRLsClWZpI38mvr1GT6rXi/Li+sKq8Hq1USmUXOZzblGGwKcCwHqM8BjmQDdUbw
+        zwQD8M/oO7qGrj2ewz9jNvk4s6n5zG6cjGpjT/F5XUaYLfNx1BmXMZtSj8NZLhKHpgPWNsj6Cvot3YPu
+        dTgLrFY5wezq6/Qs8fmdJtirPMZq1TXMoV7FiVyXwpY2yAQKuifd+0QumMN4ldnVNWx/JxoC78bcz2zy
+        PGZXL3PidtVb6VCBnkWGsKuXmU2dj6K07qJ+IRW2X4pldtWChlzAYQRMbSgZatAz6dkNPCIs7EBGnKhn
+        SISZ5NnMYbyBo9neSnUWjmaTEW4wszRH1DdogqK07zKbnI/6lnDvDK/fDaSLe1hYlALSVdQ/IGEHUnsx
+        m1IB5wzAEkBWDzVIN+cMMJtaCeuU3iIPv4TIwyrv5uNdfGBXBeUFq7InYCMAS7/DzHLlt4q8G9wIclVA
+        w4HVyAU87MWbf1tAw8EkFYq8fBJWI8/i83sglVxng3ICJcaDmbNFfu0KMytRzKHeDGtxEyrYVbA69SZq
+        MmNEnm0KrDPvZ2bJwef5rjTVkTPutpBqD8SB6gSzXEfcRL5ewmqk33aJpEe1f60KHDJy8sc/mYqXV01E
+        wbpEVwUoXn8vUFI0yfNFvncI2zdtALMq1+AIc+gTWco15GUiXGcEs8g4vmMqCt9PRMqSMRiUGw1N+i8Q
+        99Jw3CCvdjQ3OVSaGq+zA+pAkXerMJPyDk98oQ597t2W9T8RrlVxbV8GHJWp2LBhMua+NRET5v0SA3Oj
+        0VuOQD81Av2zozAgNxrfUyOxZ4vO9Vvxvu2BOFFCrJHWiry5kGWYVWkOaeJzh7RNweld6SjbmIxla55B
+        yuLRiMiLw4+yozhhwveNkeifE8WN4ImecgReXf206z7i/e+FWh4FzaxGGiTy18AkLePeF38UDLQksFM7
+        0/FOfgKSFo3CE7+KQT8lAr3kCDygRuCHWVF4JOdOsm3hQWMk4ueNxC2KIn/6DpQLzPLyO8izqoQezCQ1
+        8oaD+AN/4Q5zh4rDW1ORt3ICHp8Zg54SEY7Ej7O9vesL6HeDZ8bg9M50V0SJz70XDk2nZNh0R3uNmZTn
+        cCTLP4uKoORE9zHJuFqdjtf/EI8B2VE8dCnERUIdBc8Dxkh8+rHOv9mAcCQLzJw5ycMA0ru87yZe6Cuo
+        4rIquGWScH3PNFz/NA3/+igZk14ZgR4txCmLi2T8BQ2b/HWT/MsDhPqc2yUyX/CYpIYOh7976rIouLE/
+        Exc/ScOpMj0+L9fDsjEJsbPj0FuJ9FI+GCADLPmjn4mQ4BoGTuJONf8TzKown+dVwdufVaXgZIkOJ7Zo
+        cbZMjyObtRgxJw591ciget0TfZQIvPjGBJ5fvPTzBcSVWu770p/SsINSMu/Bixd5otXbMv7r4W0i3bBF
+        C2eJDk2lOnxWrodh4Sj0UkJHntBXiYBx+Vj/DUAgzjWyjsb/q3cd/y3e/p9JwrXd6dzbzmKXt+kved6N
+        y1UGvLk6Hr2VCC+Fgw0qjFIXjwmsE+3KA4upybmRzwCtpG97++t9GfhiRxqaPLztSdqNs+V61BYlYcjz
+        MXw+FxUONqh+yFw2NjAD8JlA3kQ5wO7azGjxdo3Ep6+zlXf3tgjy/sKV48PifQINgZm/GxfYEKD1hlm2
+        a5hVvkgJodXbpe17W8SpUh2Ob9EiOi8OD4XB+wQqlee9Fd/x9YAnKAmapEsaGttnKg1wFmt98raICxUG
+        fFyYgB9Mj+RFiqhsKEDT4Oo/P+f/NOgBDXnaV2+3BQr/Zasmoo8amjlfBBmZhkDJP5ICiwC3AURCHcUX
+        lQbkLBuDfmEyQP+caDySE4Wj21IDS4LBMEBjiQ7nKvQwLBrF63NR2VCAhtqIucNxo0bqeFOkDWicJbor
+        VNSI5HyB2wDaBSPDZgAa/7PfnBB4+PMkKF+iCKg7W2XwIucrKAmqS8agX5gM0FeNwLYibeAGcE+DJ4u1
+        RTT9icR8xaUqA+avHB+WJEjhP2zOcDQfDEL4U/Fnkoo0J0u1i6/smupFzFdQElz/l2fDMgS6S0ODNv21
+        lsInS3Xayzv9N8CZMj1qNyXjJ8/HBKXhcTeQ93/261hc3pvR8b2BtkCLIaus0xyvMDx5qlzPqN4XyfmK
+        i5UGZC0dw4dBKFaBNPf3kIbir+snB8f7fDmsglnUp3hDxFmsdX6+1bWu9wfnK/TY9kEiHs6O4vO0SCAQ
+        kEGpj5ixdIyrBxiMth1viEgnW3eOG0t0BV8GkAcIlAxfXDEWvZSIoEUB3Yeqvsi8OJz7Z0ZQCh8OGv9m
+        j13jhmJtIs0EjaXexHwF5QJaFMW/MiIoiyI3+Z++MAyHt6e5pr1gbdgcyaajNImtBmh839jTWaxtCmQY
+        0CLqq+0pWPz7CTwXUF/A38WRe8xHz45zkQ/GuHeDwr9GOuV16tRZrF1BfQCRmK+gZuj+D6fwDQ8iH5MX
+        iwenR3YoGtwtb6r2lOVjcZ4yfjA9T+AbI9KKO8iTnCjWPtpUpmv+T4V/VSHVA8Ylo6HJGIr4l0fwPuHq
+        t59G5KxYvlCiJikZhra7aAeIyNJf+v9D011bYhTyo38zAkUfJrnGOyW9YJKnrTGb0szM6Y+K/LmcLNGu
+        pSjoaE+A1gMV6xM5wQeMkdhUkIArW1N4Yjy2WYv8tc9CXjwaMXlxeGxGNK8XaF5/OCsKg3KiETcnDi+8
+        MR7lm7S4SYQp5IOR7T1xr81RktPlqQNPlemvU4NEJNkeqA5QyPtpP4d+4UhcqDTwhRJ9d7pMj4tVBh4h
+        lCT3/G0yStYl4KPCBOz4+xQcqUzB1wcyXaFOCLTEvRtoe9ymXGf2drbHSZxbdAuoSySSbA8UAatWxyNq
+        Viy2fpCI88IwooiipktjsQ7nKw1ork6nOtwV5oRQkfYEjf2azIUiXy/5d1Fa98YS3SHq/XdkKNA0SP1B
+        +kvjnz5raGmz0b9phqGNlFvuww3hOnB5+4jMIZ8PVTeUJA87W2n45kwHEiKFPG2OuDvJRJ4SKq0zblKI
+        t3SdvRQMNfghKeM3zKQME3m2K/WbtS9d3ZXOSYlk2wKFOBGnrvKF7alopimMFHDvFouKhQP0XH5MLsO/
+        Q9TOYt1713dP8yLrhue+wdmqFFyrTuf7Cpx0Z3hbBB2UrJHeE3n5LNXV47o1leq2XfVIiu6ERjhdruf7
+        hLRf6Lmj5KVIZ4CSnkXehupx3UReHRLHhmf6NJXq91J94G6fn9uWgq86I6H5Cn5sXt7Ltst9RD5+CRnh
+        TGXKVkooPMTd3hYf3NlwH5e3KluDRt4twNJuzG4s4Icou/ILE1alMOCwb0+YVZrTJV+ZqVNvMos8V9Q3
+        JMIOysNhN1q7zEtTdtVGOol6hlSoqkKtsoA51Cud9doc7OqXrFZdyN5O6CHqFzahtziZw/gnZlevcaXC
+        8eKkXb1Gz8TB9MGiPp0msBsHM7u6nNmUBr7pEOxXZ+lER63SwBzKCnqW+PwuI9RqYg5lCjMrhcyq1PMe
+        PvXg/X55WqmnzM5schK9wCU+r0sLoLmP2eQhsBt1zCa/RmdymEWx8VflBQMws3SJf0fX2OTXWn4zBMB9
+        4n2DKf8HonDyap6A7EEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>IMAGE TOOL</value>
+  </data>
+  <data name="&gt;&gt;timerButtonEffect.Name" xml:space="preserve">
+    <value>timerButtonEffect</value>
+  </data>
+  <data name="&gt;&gt;timerButtonEffect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
