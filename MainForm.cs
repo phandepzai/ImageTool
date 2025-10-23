@@ -1,4 +1,4 @@
-
+﻿
 using System;
 using System.Drawing;
 using System.Drawing.Imaging;
@@ -699,4 +699,3 @@ namespace CircularImageGenerator
         }
     }
 }
-
